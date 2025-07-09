@@ -5,8 +5,6 @@ export function UploadWidgetUploadList() {
   const uploads = useUploads((store) => store.uploads)
   const isUploadListEmpty = uploads.size === 0
 
-  console.log(uploads)
-
   return (
     <div className="px-3 flex flex-col gap-3">
       <span className="text-xs font-medium">
