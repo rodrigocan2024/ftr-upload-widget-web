@@ -15,7 +15,7 @@ export function UploadWidgetDropzone() {
       'image/jpeg': [],
       'image/png': [],
     },
-    onDrop(acceptedFiles, fileRejections, event) {
+    onDrop(acceptedFiles) {
       addUploads(acceptedFiles)
     },
   })
